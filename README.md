@@ -7,7 +7,7 @@ Federal do Rio Grande do Norte
 
 [📝 Versão em PDF](https://github.com/esdrascaleb/memorial2024/raw/gh-pages/memorial.pdf)
 
-Feito com base no [memorial](https://github.com/leouieda/memorial2023) de Leonardo Uieda 
+Feito com base no [memorial](https://github.com/leouieda/memorial2023) de Leonardo Uieda. Obrigado Leonardo!
 
 ## License
 
@@ -18,3 +18,14 @@ This content is licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
 4.0 International License</a>.
 
+
+## Execution
+
+There is an action to create the PDF but you can use the project to create the PDF and the 
+presentation
+
+```bash
+conda env create -f environment.yml
+cont activate memorial
+make
+```
