@@ -26,6 +26,6 @@ presentation
 
 ```bash
 conda env create -f environment.yml
-cont activate memorial
+conda activate memorial
 make
 ```
