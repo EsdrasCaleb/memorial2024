@@ -428,13 +428,19 @@ Além disso, o documento relata meus planos para minha atuação no IMD e os pro
 \end{summarybox}
 
 \section{Influências durante a infância e a adolescência}
-Nasci e cresci em Governador Valadares, uma cidade de médio porte localizada em Minas Gerais. Meus pais são formados em Engenharia Elétrica e, desde a infância, tive contato com computadores, inicialmente no trabalho de meu pai e, posteriormente, em casa. Esse ambiente despertou em mim uma paixão pela computação. Embora não tenha começado a programar tão cedo, sempre fui curioso e gostava de configurar o computador para rodar os jogos que queria, mesmo quando o hardware não era compatível.
+Nasci e cresci em Governador Valadares, uma cidade de médio porte localizada em Minas Gerais. Meus pais são formados em Engenharia Elétrica e, desde a infância, tive contato com computadores, inicialmente no trabalho de meu pai e, posteriormente, em casa.
+Esse ambiente despertou em mim uma paixão pela computação. Embora não tenha começado a programar tão cedo, sempre fui curioso e gostava de configurar o computador para rodar os jogos que queria, mesmo quando o hardware não era compatível.
 
 Durante a escola, meu passatempo no recreio era ler sobre as últimas novidades tecnológicas na biblioteca. A escola assinava as revistas \textit{Galileu} e \textit{Superinteressante}, que traziam informações fascinantes e relevantes sobre ciência e tecnologia.
 
-Quando tive acesso à internet, me dediquei a aprender a utilizar os buscadores para encontrar informações que me interessavam. Aprofundei meus conhecimentos em implementação de sistemas ao instalar e configurar emuladores para diferentes plataformas em meu computador. Como não tínhamos muitos recursos financeiros, os emuladores me permitiram jogar jogos antigos gratuitamente.
+Fui uma das primeiras pessoas em minha cidade com acesso a internet atravez da WKVE. Atraves dela me dediquei a aprender a utilizar os buscadores para encontrar informações que me interessavam.
+Aprofundei meus conhecimentos em implementação de sistemas ao instalar e configurar emuladores para diferentes plataformas em meu computador.
+Como não tínhamos muitos recursos financeiros, os emuladores me permitiram jogar jogos antigos gratuitamente.
 
-Após me mudar para o Rio de Janeiro, tive aulas de programação na escola, aprendendo Pascal e SQL. O interesse por programação, especialmente na área de jogos, seguiu me acompanhando até o vestibular, onde fiz alguns projetos pequenos por conta própria e continuei estudando sobre o assunto. Tentei o vestibular para Engenharia da Computação na UFRJ, mas, infelizmente, passei mal em um dos dias de prova, o que prejudicou minha nota em química. No entanto, fui aprovado no vestibular da UFF para o curso de Engenharia de Telecomunicações. Essa escolha foi inspirada em meu pai, que é Engenheiro de Telecomunicações na Oi, desde os tempos em que a empresa ainda era a Telebras.
+Após me mudar para o Rio de Janeiro, tive aulas de programação na escola, aprendendo Pascal e SQL. O interesse por programação, especialmente na área de jogos, seguiu me acompanhando até o vestibular,
+onde fiz alguns projetos pequenos por conta própria e continuei estudando sobre o assunto. Tentei o vestibular para Engenharia da Computação na UFRJ, mas, infelizmente, passei mal em um dos dias de prova, o
+que prejudicou minha nota em química. No entanto, fui aprovado no vestibular da UFF para o curso de Engenharia de Telecomunicações. Essa escolha foi inspirada em meu pai, que é Engenheiro de Telecomunicações na Oi,
+desde os tempos em que a empresa ainda era a Telebras.
 
 \section{A estrutura deste memorial}
 
@@ -649,6 +655,9 @@ JavaScript React.js. Também me envolvi com a comunidade de desenvolvimento Mood
 e sendo autor de 2 plugins para o Moodle~\cite{moodle_tool_deletemessage,moodle_tool_sentry}, que foram publicados no
 portal oficial do Moodle.
 
+
+%enfatizar integração oauth do sigaa
+
 A especialização em Informática na Saúde é feita através do AVASUS, e tive a honra de fazer parte de 4 bancas de projeto
 final dela em 2022.
 
@@ -656,6 +665,9 @@ Em 2022, me envolvi com um grupo de conservação de abelhas nativas em Natal, r
 palestras e exposições de conscientização. Ao dar essas palestras, senti o desejo de tentar novamente a carreira
 docente, por gostar de ajudar as pessoas a aprender. Por isso, comecei a escrever projetos para o doutorado, me
 inscrevendo em 2023 e sendo aceito no doutorado em 2024 no Programa de Pós-Graduação em Sistemas e Computação (PPgSC/UFRN).
+
+
+%falar do trabalho na SEDIS com a migração da infra
 
 
 
@@ -687,41 +699,57 @@ Esse aprendizado evoluiu rapidamente, levando à criação de um projeto de cód
 revisões sistemáticas, utilizando IAs para classificação de textos. O projeto possui uma versão em
 Python~\cite{sistematicreviem} e uma versão web acessível \href{https://esdrascaleb.github.io/websm/}{aqui}.
 
-Atualmente, tenho trabalhado no código do ChatTester~\cite{yuan2023no}, com o objetivo de criar um sistema automatizado
-para a geração de testes com correção de código, utilizando autocorreção de prompts.
+Recentemente, consegui minha primeira publicação após uma longa pausa acadêmica: o artigo
+\textit{“LLMs as Test Generators: A Comparative Benchmarking Study”}, apresentado no SBES 2025.
+Nele, realizo uma análise comparativa entre LLMs de menor e maior escala quanto à capacidade de gerar testes automatizados.
+A proposta é que LLMs menores permitam ao desenvolvedor realizar esse processo localmente, no próprio computador,
+sem expor seu código a terceiros que possam usá-lo sem autorização.
+
+
+Essa preocupação está alinhada ao meu trabalho, pois há grande resistência no campo de jogos digitais ao uso de IA,
+com desconfiança quanto à sua aplicação. Se minha ferramenta for voltada para esse meio,
+precisa levar esses receios em consideração.
+
+Para compreender melhor as necessidades da comunidade, me reconectei à PONG e retomei a participação em Game Jams com
+desenvolvedores locais, buscando aprofundar meu entendimento sobre seus desafios e oferecer colaboração com o conhecimento que possuo.
+Além disso, venho contribuindo em projetos de software livre relacionados a jogos, com foco especial nas engines Godot e Defold,
+ajudando no desenvolvimento e aprimoramento dessas ferramentas.
+
 
 
 
 \chapter{Projeto de Atuação Profissional}
 \label{cap_proje}
 
-Além de ministrar aulas, pretendo desenvolver projetos com IA para auxiliar startups e empresas júnior da cidade na
-implementação de modelos generativos em seus serviços e produtos. O objetivo é ensinar estratégias para o uso de IAs
-quantizadas e de baixo custo operacional, permitindo a implementação diretamente no cliente e, assim, reduzindo os
-custos para as startups, especialmente as empresas do Parque Tecnológico do IMD.
+Minha atuação docente no IMD será pautada pela integração entre a fundamentação teórica rigorosa e a experimentação prática intensiva. Acredito que a formação de excelência em Segurança da Informação exige que o aluno não apenas compreenda os protocolos, mas saiba analisar o tráfego de dados em tempo real e antecipar vetores de ataque.
 
-Também planejo iniciar projetos piloto para o uso de IA em diversas áreas:
+\section{Filosofia de Ensino e Prática Laboratorial}
 
-\textbf{Inclusão Digital para Idosos}: Ajudar idosos a navegar no ambiente digital com segurança, por meio de cursos
-voltados ao uso de assistentes virtuais. O intuito é reduzir sua vulnerabilidade a informações falsas e promover sua
-inclusão digital.
+Pretendo implementar metodologias de \textit{hands-on learning} (aprender fazendo), utilizando laboratórios virtuais e ferramentas de análise de tráfego, como Wireshark, Zeek e Suricata. O objetivo é permitir que os alunos visualizem o fluxo de pacotes e compreendam a anatomia de ataques e defesas diretamente na camada de rede e aplicação.
 
-\textbf{Tutoria Virtual para Estudantes}: Implementar pipelines de modelos para criar tutores virtuais que forneçam
-suporte personalizado aos alunos em disciplinas específicas, ajudando a melhorar o desempenho acadêmico e a reduzir
-a carga de trabalho dos professores.
+Além das aulas, planejo desenvolver as seguintes frentes de atuação:
 
-\textbf{Secretários Virtuais Acadêmicos}: Desenvolver secretários virtuais para simplificar processos acadêmicos,
-facilitando a vida dos alunos e aumentando a eficiência dos servidores.
+\section{Pesquisa e Inovação em Defesa Cibernética}
 
-\textbf{Gestão Inteligente de Energia e Resíduos}: Implementar modelos inteligentes para otimizar o uso de energia no
-campus, alertando sobre luzes ou ar-condicionado deixados ligados em salas, e para uma coleta eficiente de lixo, com
-notificações automáticas para agilizar o recolhimento.
+Desenvolverei projetos de pesquisa aplicados que visem a proteção do setor produtivo local, especialmente as \textit{startups} do Parque Tecnológico do IMD, focando em:
 
-\textbf{Apoio à Acessibilidade}: Auxiliar no desenvolvimento de soluções que promovam a acessibilidade, como cães-guia
-virtuais para pessoas com deficiência visual, leitores de Libras mais avançados para deficientes auditivos e assistentes
-para pessoas com dificuldade de socialização.
+\begin{itemize}
+    \item \textbf{Mitigação de Ataques DDoS}: Pesquisar e testar algoritmos de detecção baseados em inteligência artificial e SDN (\textit{Software Defined Networking}) para identificar e filtrar tráfego malicioso de negação de serviço de forma autônoma na borda da rede.
+    \item \textbf{Arquiteturas Anti-Ransomware}: Desenvolver e testar estratégias de defesa em profundidade que combinem análise comportamental de arquivos e sistemas de arquivos com \textit{snapshots} imutáveis, visando a resiliência de dados críticos de empresas juniores e parceiras.
+    \item \textbf{Laboratório de Simulação de Ataques (Cyber Range)}: Criar um ambiente controlado para que alunos e empresas possam testar a segurança de seus sistemas contra vulnerabilidades reais em um cenário de \textit{Red Team} vs. \textit{Blue Team}.
+\end{itemize}
 
-Espero alinhar os ideais do IA360 com esses projetos e estar aberto a contribuir em outras iniciativas, conforme necessário.
+\section{Projetos de Extensão e Impacto Social}
+
+\textbf{Educação Contra Phishing e Engenharia Social}: Desenvolver campanhas e ferramentas de simulação de \textit{phishing} educacional para a comunidade acadêmica e externa. O foco é capacitar o cidadão comum e funcionários de instituições públicas a identificarem golpes digitais, reduzindo a superfície de ataque humana.
+
+\textbf{Consultoria em Segurança para Startups}: Criar um programa de extensão onde alunos de graduação, sob minha supervisão, realizam auditorias básicas de segurança e sugerem melhorias em infraestruturas de rede para micro e pequenas empresas do Polo Digital, promovendo a cultura de \textit{Security by Design}.
+
+\textbf{Cidadania Digital Segura}: Promover cursos de curta duração voltados à segurança básica de dispositivos móveis e redes domésticas para o público em geral, visando reduzir o impacto de crimes cibernéticos comuns na população de Natal.
+
+\section{Integração Acadêmica e Administrativa}
+
+Espero contribuir ativamente para o fortalecimento das linhas de pesquisa de redes e segurança do IMD, colaborando na atualização curricular das disciplinas de graduação e pós-graduação para que reflitam os desafios contemporâneos da cibersegurança global. Pretendo também atuar em comitês técnicos e na gestão acadêmica, auxiliando no planejamento estratégico de infraestrutura computacional segura do instituto.
 
 
 
