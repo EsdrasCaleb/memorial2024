@@ -39,8 +39,8 @@ jobs:
         with:
           environment-file: environment.yml
           activate-environment: memorial
-          miniforge-variant: Mambaforge
-          miniforge-version: "26.3.2-0"
+          miniforge-variant: Miniforge
+          miniforge-version: "24.7.1-2"
           use-mamba: true
           channel-priority: strict
           # Needed for caching
