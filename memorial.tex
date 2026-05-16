@@ -22,7 +22,10 @@
 
 % Variables for easier typing of some names
 \newcommand{\UFF}{Universidade Federal Fluminense}
+\newcommand{\UFPE}{Universidade Federal de Pernamebuco}
 \newcommand{\UFRN}{Universidade Federal do Rio Grande do Norte}
+\newcommand{\PONG}{Potiguar Indie Games}
+
 
 % Names for citing coauthors
 \newcommand{\Me}{\textbf{Uieda, L}}
@@ -387,26 +390,26 @@
 \end{titlepage}
 
 %==============================================================================
+
 \chapter*{Resumo}
 
-Possuo Bacharelado em Engenharia de Telecomunicações e Mestrado em Ciência da Computação pela \UFF{}.
-Atualmente, estou cursando o Doutorado em Ciência da Computação na \UFRN{}.
+Possuo Bacharelado em Engenharia de Telecomunicações e Mestrado em Ciência da Computação pela \UFF{},
+e atualmente curso o Doutorado em Ciência da Computação na \UFRN{}.
+Minha trajetória profissional e acadêmica é consolidada na convergência entre a infraestrutura de redes, segurança da informação e o desenvolvimento de sistemas distribuídos robustos.
 
-Desde a graduação, venho me dedicando ao desenvolvimento e à implementação de sistemas, com destaque para minha atuação
-no Laboratório de Difração de Raios X da UFF (\textbf{LDRX}), criando sistemas para o auxílio no tratamento de dados.
-Posteriormente, ampliei essa experiência em meu estágio na GO2WEB, onde tratei dados mal formatados de um censo escolar
-municipal. Na \UFF{}, tive o privilégio de também fazer parte da implementação do Eduroam em nível nacional, bem como de
-participar do desenvolvimento de soluções para popularizar o uso do sistema brasileiro de televisão digital.
+Com mais de uma década de experiência técnica institucional, atuo como Técnico de Tecnologia da Informação na \UFRN{} (SEDIS) ,
+onde lidero projetos de modernização de infraestrutura baseada em arquiteturas PaaS e implemento soluções de integração segura,
+gerenciamento de tokens e federação de identidade via OAuth 2.0.
+Anteriormente, na \UFF{}, colaborei diretamente na implementação do sistema de autenticação segura Eduroam em nível nacional junto à RNP ,
+além de desenvolver soluções aplicadas à interatividade e protocolos na TV Digital.
 
-Meu interesse em Inteligência Artificial começou na graduação, mas foi com o advento das LLMs que tive a oportunidade de
-trabalhar mais intensamente com essa tecnologia, desenvolvendo soluções que fazem uso dela~\cite{sistematicreviem}.
-Minha atuação acadêmica inclui prêmios por trabalhos em Televisão Digital, com menções honrosas e publicações em eventos
-relevantes. Minha experiência em docência inclui a monitoria da disciplina de Microprocessadores na \UFF{} e a
-ministração de disciplinas do curso PRONATEC no IFRN.
+Minha pesquisa atual no doutorado investiga o uso de Inteligência Artificial Generativa para automação de testes,
+explorando vertentes críticas de privacidade de dados em modelos locais, telemetria e pipelines distribuídos.
+Na docência, possuo experiência no ensino técnico e superior, tendo ministrado as disciplinas de Cabeamento Estruturado,
+Redes de Acesso e Planejamento de Redes no IFRN/PRONATEC , além da monitoria em Microprocessadores na \UFF{}.
 
-Este memorial apresenta minha formação e trajetória profissional, incluindo reflexões sobre os fatores que me trouxeram
-até aqui, as lições aprendidas ao longo do caminho e minha motivação para retornar à carreira acadêmica.
-Além disso, o documento relata meus planos para minha atuação no IMD e os projetos que pretendo desenvolver.
+Este memorial apresenta minha formação, consolidação técnica e planos de atuação profissional, evidenciando minha plena
+qualificação para contribuir com o ensino, pesquisa e extensão no Instituto Metrópole Digital (IMD/UFRN) nas áreas de Redes de Computadores e Segurança da Informação.
 
 
 %==============================================================================
@@ -427,64 +430,76 @@ Além disso, o documento relata meus planos para minha atuação no IMD e os pro
   \end{fa-ul}
 \end{summarybox}
 
+
 \section{Influências durante a infância e a adolescência}
-Nasci e cresci em Governador Valadares, uma cidade de médio porte localizada em Minas Gerais. Meus pais são formados em Engenharia Elétrica e, desde a infância, tive contato com computadores, inicialmente no trabalho de meu pai e, posteriormente, em casa.
-Esse ambiente despertou em mim uma paixão pela computação. Embora não tenha começado a programar tão cedo, sempre fui curioso e gostava de configurar o computador para rodar os jogos que queria, mesmo quando o hardware não era compatível.
+\section{Influências durante a infância e a adolescência}
 
-Durante a escola, meu passatempo no recreio era ler sobre as últimas novidades tecnológicas na biblioteca. A escola assinava as revistas \textit{Galileu} e \textit{Superinteressante}, que traziam informações fascinantes e relevantes sobre ciência e tecnologia.
+Nasci e cresci em Governador Valadares, uma cidade de médio porte localizada em Minas Gerais.
+Fui criado em um ambiente familiar fortemente conectado à tecnologia, dado que ambos os meus pais possuem formação em Engenharia Elétrica.
+Desse modo, tive contato precoce com a computação, acompanhando meu pai em seu ambiente de trabalho e explorando a tecnologia em nossa residência.
+Um marco memorável de minha infância foi o incentivo de minha mãe, que introduziu-me aos fundamentos da computação através de um livro didático ilustrado;
+por meio dele, compreendi precocemente a lógica de funcionamento de memórias, registradores e da Unidade Lógica e Aritmética (ULA).
 
-Fui uma das primeiras pessoas em minha cidade com acesso a internet atravez da WKVE. Atraves dela me dediquei a aprender a utilizar os buscadores para encontrar informações que me interessavam.
-Aprofundei meus conhecimentos em implementação de sistemas ao instalar e configurar emuladores para diferentes plataformas em meu computador.
-Como não tínhamos muitos recursos financeiros, os emuladores me permitiram jogar jogos antigos gratuitamente.
+Esse cenário despertou em mim uma curiosidade natural pela arquitetura interna dos computadores. Antes mesmo de ter acesso a sistemas modernos,
+já interagia com o sistema operacional DOS aos cinco anos de idade para executar jogos e, posteriormente, com o Windows 3.1.
+Mais tarde, realizei um curso básico sobre o Windows 95 e ferramentas de escritório na UNIVALE —
+o que, embora não fosse uma novidade completa devido à minha experiência prévia, ajudou a formalizar alguns conceitos.
+Essa autonomia me impulsionou a explorar sistemas operacionais de forma autodidata, realizando modificações e otimizando
+parametrizações de software e hardware para viabilizar a execução de aplicações complexas, tanto em meu computador doméstico de recursos limitados quanto nos equipamentos da biblioteca escolar.
 
-Após me mudar para o Rio de Janeiro, tive aulas de programação na escola, aprendendo Pascal e SQL. O interesse por programação, especialmente na área de jogos, seguiu me acompanhando até o vestibular,
-onde fiz alguns projetos pequenos por conta própria e continuei estudando sobre o assunto. Tentei o vestibular para Engenharia da Computação na UFRJ, mas, infelizmente, passei mal em um dos dias de prova, o
-que prejudicou minha nota em química. No entanto, fui aprovado no vestibular da UFF para o curso de Engenharia de Telecomunicações. Essa escolha foi inspirada em meu pai, que é Engenheiro de Telecomunicações na Oi,
-desde os tempos em que a empresa ainda era a Telebras.
+Durante o período escolar, meu interesse por ciência e tecnologia consolidou-se através da leitura assídua de revistas de divulgação científica, como \textit{Galileu} e \textit{Superinteressante},
+disponíveis no acervo da escola. Na mesma época, vivenciei o surgimento da internet comercial em minha cidade natal, sendo um dos primeiros usuários do provedor regional WKVE.
+Essa experiência pioneira despertou meu interesse pela infraestrutura de redes: o desafio de configurar discadores, compreender a lógica de funcionamento dos navegadores e otimizar a conectividade instigou minha busca autônoma por conhecimento sobre protocolos e comunicação de dados.
 
+Aprofundei essa autonomia ao me dedicar à instalação e parametrização de emuladores para diferentes plataformas de hardware.
+Lidar com as limitações computacionais da época exigia não apenas o entendimento de sistemas de arquivos e arquitetura de computadores, mas também uma habilidade prática em contornar restrições de memória e processamento — uma base que se provaria fundamental para minha visão sobre eficiência em sistemas distribuídos.
+
+Após mudar-me para o Rio de Janeiro, tive meu primeiro contato formal com o desenvolvimento de software no ensino médio, aprendendo lógica de programação com as linguagens Pascal e SQL.
+O interesse pelo desenvolvimento de sistemas seguiu me acompanhando até o momento do processo seletivo para o ensino superior.
+Fui aprovado no vestibular da \UFF{} para o curso de Engenharia de Telecomunicações.
+Essa escolha foi profundamente inspirada na trajetória de meu pai, que atuou no sistema nacional de telecomunicações (Telebras) e, posteriormente, na operadora Oi, consolidando meu desejo de construir uma carreira voltada à infraestrutura de comunicações e redes de computadores.
 \section{A estrutura deste memorial}
 
-Este memorial está estruturado da seguinte forma: o Capítulo~\ref{cap_uff} aborda minha experiência durante a graduação
-e o mestrado na UFF. O Capítulo~\ref{cap_atuacao} descreve minhas atividades profissionais e acadêmicas realizadas após
-o mestrado. No Capítulo~\ref{cap_pesquisa}, apresento minha pesquisa atual e os motivos que me levaram a retornar à
-academia para cursar o doutorado. O Capítulo~\ref{cap_proje} detalha meus planos para atuação no IMD e no projeto IA360.
-Por fim, o Capítulo~\ref{cap_conclusao} traz minhas considerações finais.
-
+Este memorial está estruturado da seguinte forma: o Capítulo~\ref{cap_uff} aborda minha formação acadêmica, englobando a graduação em Engenharia de Telecomunicações e o mestrado em Ciência da Computação na \UFF{}.
+O Capítulo~\ref{cap_atuacao} descreve minha atuação profissional e atividades docentes consolidadas após o mestrado.
+No Capítulo~\ref{cap_pesquisa}, apresento minhas frentes de pesquisa atuais no doutorado e as motivações que guiam minha trajetória científica.
+O Capítulo~\ref{cap_proje} detalha meu plano de atuação direcionado ao IMD e a UFRN.
+Por fim, o Capítulo~\ref{cap_conclusao} traz as considerações finais e reflexões sobre minha trajetória.
 
 %==============================================================================
 \chapter{Formação Acadêmica na UFF}
 \label{cap_uff}
 
-\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo da Formação acadêmica na UFF]
+\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo da Formação Acadêmica na UFF]
   \begin{datelist}
     \textbf{2005--2010} & \textbf{Bacharelado em Engenharia de Telecomunicações -- Universidade Federal Fluminense} \\
-    2005-2006 & Voluntariado Laboratório de Computação da Engenharia - LACE \\
-    2006 & Voluntário Pet-Tele \\
-    2006 & Voluntariado Vestibular Solidário \\
-    2006-2007 & Bolsita CNPQ no Laboratório de Difração de Raios X - LDRX \\
-    2007-2008 & Bolsista Laboratório de AutoCad \\
-    2008-2009 & Estágio na GO2WEB \\
-    2010 & Autoria no Software Registrado IPÚBLICA - SISTEMA INTELIGENTE DE GESTÃO PÚBLICA  \\
-    2010 & Monitor da Disciplina de Microprocessadores \\
-    2010 & Menção Honrosa com o Jogo DamasTV no WTVDI/WebMedia 2010 \\
-    2010 & ShortPaper DamasTV no SBGames2010 \\
-    2010 & Voluntário Brasil Game Show 2010 \\
-    \textbf{2011--2013} & \textbf{Mestrado em Ciencia da Computação -- Universidade Federal Fluminense} \\
-    2011 & Menção Honrosa com o Jogo DamasTV no 1º IPTV Application Challenge \\
-    2011 & Voluntário Brasil Game Show 2011 \\
-    2012 & Participação no Projeto Eduroam com a RNP \\
-    2012 & Participação como Monitor do curso do Eduroam no 18º Seminário RNP de Capacitação e Inovação \\
-    2012 & Participação como Monitor do curso do Eduroam no IdP Forum RNP \\
-    2013 & Publicação do paper "JNS: An alternative authoring language for specifying NCL multimedia documents" no ICMEW 2013 \\
-    2013 & Publicação do paper "NCL4WEB - Translating NCL Applications to HTML5 Web Pages no DocEng" 2013 \\
-    2013 & Autoria no Software Registrado JNS Translator \\
-    2013 & Autoria no Software Registrado NCL4WEB \\
-    2013 & Autoria no Software Registrado JNS \\
+    2005--2006 & Voluntariado no Laboratório de Computação da Engenharia (LACE) \\
+    2006 & Voluntariado no Programa de Educação Tutorial (PET-Tele) \\
+    2006 & Trabalho voluntário no projeto Vestibular Solidário \\
+    2006--2007 & Bolsista de Iniciação Científica (CNPq) no Laboratório de Difração de Raios X (LDRX) \\
+    2007--2008 & Bolsista de Desenvolvimento Acadêmico no Laboratório de AutoCAD \\
+    2008--2009 & Estágio em Engenharia de Software na GO2WEB \\
+    2010 & Coautoria e Registro de Software: IPÚBLICA -- Sistema Inteligente de Gestão Pública \\
+    2010 & Monitoria da Disciplina de Microprocessadores (Sistemas Digitais e Baixo Nível) \\
+    2010 & Menção Honrosa pelo desenvolvimento do Jogo DamasTV no WTVDI/WebMedia 2010 \\
+    2010 & Publicação de Short Paper (DamasTV) no SBGames 2010 \\
+    2010 & Atuação como voluntário na Brasil Game Show (BGS 2010) \\
+    \textbf{2011--2013} & \textbf{Mestrado em Ciência da Computação -- Universidade Federal Fluminense} \\
+    2011 & Menção Honrosa pelo Jogo DamasTV no 1º IPTV Application Challenge \\
+    2011 & Atuação como voluntário na Brasil Game Show (BGS 2011) \\
+    2012 & \textbf{Desenvolvimento e Integração no Projeto Eduroam junto à RNP} \\
+    2012 & \textbf{Atuação como Instrutor/Monitor do Curso Eduroam no 18º Seminário RNP} \\
+    2012 & \textbf{Atuação como Instrutor/Monitor do Curso Eduroam no IdP Forum RNP} \\
+    2013 & Publicação do artigo ``JNS: An alternative authoring language for specifying NCL multimedia documents'' no ICMEW 2013 \\
+    2013 & Publicação do artigo ``NCL4WEB - Translating NCL Applications to HTML5 Web Pages'' no DocEng 2013 \\
+    2013 & Registro de Patente/Software: JNS Translator \\
+    2013 & Registro de Patente/Software: NCL4WEB \\
+    2013 & Registro de Patente/Software: JNS \\
   \end{datelist}
 \end{summarybox}
 
-Este capítulo detalha minha experiência acadêmica durante a graduação e o mestrado, incluindo minha atuação em pesquisa
-e extensão, além dos principais prêmios e publicações.
+Este capítulo detalha minha experiência acadêmica durante a graduação e o mestrado, incluindo minha atuação em pesquisa,
+extensão e desenvolvimento tecnológico, além dos principais prêmios, registros de software e publicações científicas obtidas no período.
 
 \section{Graduação em Engenharia de Telecomunicação}
 \label{sec_grad}
@@ -496,73 +511,68 @@ e extensão, além dos principais prêmios e publicações.
     \faInfoCircle & DamasTV: um Jogo de Damas para o SBTVD~\cite{saad2010damastv}
   \end{fa-ul}
 \end{subsummarybox}
-Desde o primeiro ano da graduação, procurei formas de acesso a uma bolsa de pesquisa. No segundo período, tornei-me
-voluntário no laboratório de informática, com o objetivo de me tornar bolsista efetivo no período seguinte, quando a
-seleção fosse reaberta.
+Desde o primeiro ano da graduação, adotei uma postura proativa na busca por oportunidades de iniciação científica e inserção em laboratórios de pesquisa.
+Já no segundo período letivo, atuei como voluntário no Laboratório de Computação da Engenharia (LACE), dedicando-me ao suporte técnico e à familiarização com a infraestrutura local.
 
-No período seguinte, participei da seleção para o PET-Tele, mas fui rejeitado. No entanto, ingressei no grupo como
-voluntário, onde participei de cursos e ajudei na organização do Encontro Regional de PET na UFF, em 2006. No PET-Tele,
-também tive a oportunidade de participar da Semana de Engenharia da Computação e Eletrônica da UFRJ. Nesse evento,
-aprendi um pouco sobre Inteligência Artificial e fiquei instigado a tentar a docência, o que me motivou a lecionar por
-alguns meses no pré-vestibular comunitário da UFF.
+No semestre subsequente, submeti-me ao processo seletivo para o Programa de Educação Tutorial (PET-Tele).
+Embora não tenha ingressado inicialmente como bolsista, integrei o grupo como membro voluntário,
+colaborando ativamente em cursos de extensão e na comissão organizadora do Encontro Regional dos Grupos PET (SudestePET), sediado na \UFF{} em 2006.
+Através do PET-Tele, participei da Semana de Engenharia da Computação e Eletrônica da UFRJ, evento que expandiu minha visão sobre Inteligência Artificial.
+Essa vivência acadêmica, somada ao desejo nascente de seguir a carreira docente, motivou-me a lecionar voluntariamente, durante alguns meses, no pré-vestibular
+comunitário promovido pela própria universidade.
 
-No mesmo período, ingressei no Laboratório de Difração de Raios-X(LDRX), pertencente ao Instituto de Física da UFF, como
-bolsista do CNPq. Minha experiência com a iniciação científica no Instituto de Física foi muito instrutiva. Sob a
-orientação do professor Carlos Basílio (hoje na UFMG), aprendi sobre o tratamento de dados e desenvolvi uma aplicação
-para auxiliar na seleção visual de outliers. Também tive contato com software livre e sistemas de implementação,
-auxiliando na configuração da rede interna do laboratório, na configuração de todos os computadores e na instalação de
-softwares para acesso remoto seguro.
+Ainda nesse período, ingressei como Bolsista de Iniciação Científica do CNPq no Laboratório de Difração de Raios-X (LDRX), vinculado ao Instituto de Física da \UFF{}.
+Sob a orientação do Professor Carlos Basílio, desenvolvi uma aplicação computacional voltada ao tratamento estatístico de dados e à filtragem visual de \textit{outliers}.
+Para além do desenvolvimento de software, essa oportunidade foi o meu primeiro marco prático na administração de sistemas e infraestrutura de redes: atuei diretamente na estruturação e configuração da rede interna do laboratório,
+no \textit{hardening} e preparação das estações de trabalho em ambiente de Software Livre, e no estabelecimento de protocolos para acesso remoto seguro aos servidores de processamento.
 
-Durante quase todos os anos da graduação, participei das semanas acadêmicas promovidas na Engenharia, frequentando
-especialmente para conhecer novidades e pesquisas. Era como na escola, mas agora, em vez de ler revistas, eu podia
-conferir as inovações pessoalmente.
+Ao longo de toda a graduação, mantive uma participação assídua nas semanas acadêmicas e ciclos de palestras da Engenharia,
+compreendendo a relevância de acompanhar o estado da arte e as tendências de inovação tecnológica de forma presencial e dialógica.
 
-Após concluir minha pesquisa no LDRX, no quinto período, tornei-me monitor do laboratório de AutoCAD, onde aprendi mais
-sobre o sistema Linux. Nesse contexto acadêmico, também fui integrante da liderança do movimento estudantil Alfa e Ômega,
-no qual já participava desde o terceiro período. Durante essa experiência, desenvolvi habilidades de articulação para
-falar em público, gestão de pessoas e liderança. O grupo oferecia cursos e treinamentos práticos, que enriqueceram
-minhas competências. Além disso, participei como voluntário no Pan-Americano, organizado pela More Than Gold, onde
-tive a oportunidade de treinar meu inglês.
+Após a conclusão das atividades no LDRX, passei a atuar como monitor do laboratório de AutoCAD,
+oportunidade na qual aprofundei significativamente meus conhecimentos práticos na administração de sistemas operacionais baseados em Linux.
+Paralelamente, exerci papéis de liderança no movimento estudantil Alfa e Ômega a partir do terceiro período.
+Essa experiência extracurricular foi fundamental para o desenvolvimento de competências socioemocionais (\textit{soft skills}), tais como articulação institucional,
+oratória, gestão de pessoas e liderança de equipes. Complementando minha formação global, atuei como voluntário internacional nos Jogos Pan-Americanos de 2007, em uma iniciativa organizada pela \textit{More Than Gold}, o que me permitiu aplicar e consolidar a proficiência na língua inglesa em ambientes multiculturais.
 
-No sétimo período, comecei a procurar estágios e, em 2008, fui aprovado em um estágio de um ano e meio na Go2Web, uma
-empresa de desenvolvimento de sistemas web. Nessa empresa, aprendi programação orientada a objetos com C\# e o framework
-.NET, além de programação web com ASP, HTML, JavaScript e CSS. Participei do desenvolvimento do software de gestão
-governamental do município do Rio de Janeiro, iPública, que utilizava a biblioteca Google Maps para criar um painel
-de gestão. Também ajudei em um censo escolar da rede pública, projetando o sistema usado para enviar os dados ao banco
-de dados e auxiliando na recuperação de mais de 100 mil registros de dados mal formatados.
+No sétimo período da graduação, direcionei meus esforços para o mercado corporativo, sendo aprovado para o estágio na Go2Web,
+empresa especializada no desenvolvimento de sistemas web complexos, onde atuei por dezoito meses (2008--2009).
+Nesse ambiente, consolidei competências em Programação Orientada a Objetos com a linguagem C\# e o \textit{framework} .NET,
+além do desenvolvimento \textit{full-stack} utilizando ASP, HTML, JavaScript e CSS.
+O domínio da linguagem SQL foi um diferencial crítico nessa experiência: atuei no desenho de consultas complexas, garantindo a manipulação segura e eficiente dos dados.
+Integrei a equipe de engenharia de software responsável pelo iPública — Sistema Inteligente de Gestão Pública do Município do Rio de Janeiro —, no qual trabalhei na integração de APIs geográficas (Google Maps) para painéis gerenciais executivos (\textit{dashboards}).
+Adicionalmente, apliquei conceitos avançados de SQL no projeto do Censo Escolar da rede pública municipal, sendo responsável pela modelagem de scripts para persistência, higienização e garantia de integridade de dados, o que culminou no saneamento e na recuperação bem-sucedida de mais de 100 mil registros estruturados de forma inconsistente.
 
-Em 2009, cursei uma disciplina optativa com minha futura orientadora, a professora Débora Christina Muchaluat Saad,
-sobre multimídia e televisão digital. Meu trabalho de conclusão da disciplina foi a primeira versão do DamasTV, um jogo
-para o middleware interativo Ginga-NCL~\cite{soares2007ginga} do sistema brasileiro de televisão
-digital~\cite{mendes2007sbtvd}. Desenvolvido em Lua, o jogo evoluiu para permitir partidas pela internet, utilizando o
-canal de retorno da televisão. Por meio desse trabalho, ingressei no grupo de pesquisa Midiacom e enviei meu primeiro
-artigo acadêmico, que foi rejeitado no SBGames 2009.
+Em 2009, cursei uma disciplina optativa com minha futura orientadora, a Professora Débora Christina Muchaluat Saad,
+sobre sistemas multimídia e televisão digital. Como projeto de conclusão da disciplina, desenvolvi a primeira versão do DamasTV,
+um jogo interativo projetado para o \textit{middleware} Ginga-NCL~\cite{soares2007ginga} do Sistema Brasileiro de Televisão Digital (SBTVD)~\cite{mendes2007sbtvd}.
+Desenvolvido na linguagem Lua, o sistema evoluiu para suportar partidas multiusuário através da internet, utilizando de forma pioneira o canal de retorno da televisão.
+Esse projeto marcou minha introdução aos conceitos de comunicação em rede e protocolos de transporte para transmissão de dados interativos em tempo real.
+A partir dessa vertente, ingressei no laboratório de pesquisa Midiacom e elaborei meu primeiro artigo científico que,
+embora tenha demandado revisões e aprimoramentos metodológicos iniciais, serviu como base sólida para minha maturidade na escrita acadêmica.
 
-Em 2010, fui monitor da disciplina de Microprocessadores, minha segunda experiência relacionada à docência. Com mais
-habilidades para falar em público, desenvolvidas no movimento estudantil, tive uma experiência enriquecedora ao
-ministrar aulas de laboratório e reposição para a turma. Essa experiência fortaleceu minha motivação para a área de
-ensino, ao perceber o impacto positivo do meu trabalho no aprendizado dos alunos.
+Em 2010, fui selecionado como monitor da disciplina de Microprocessadores, consolidando minha segunda experiência formal em docência.
+Amparado pelas habilidades de comunicação e liderança desenvolvidas no movimento estudantil, exerci um papel ativo na condução das aulas práticas de laboratório e em sessões de reposição de conteúdo para as turmas.
+Essa imersão no ensino de arquiteturas digitais e programação de baixo nível fortaleceu meu compromisso com a carreira docente, e
+videnciando minha capacidade de transpor conceitos teóricos complexos em aprendizado prático para os alunos.
 
-Ainda em 2010, meu artigo~\cite{saad2010damastv} sobre o DamasTV foi aprovado como short paper no SBGames 2010.
-Participar desse evento foi muito gratificante. Aprendi sobre jogos educativos que realmente priorizam a experiência
-do jogador, além de conhecer empresas do mercado brasileiro de games, como MiniBoss e Vortex.
+Ainda em 2010, a versão aprimorada do projeto DamasTV~\cite{saad2010damastv} foi aceita e publicada como \textit{short paper} no SBGames 2010.
+A participação no evento propiciou uma rica interação com o estado da arte do desenvolvimento de sistemas interativos e com o ecossistema de inovação tecnológica de estúdios nacionais.
+No mesmo ano, o trabalho obteve reconhecimento internacional relevante ao receber uma Menção Honrosa no 1º Concurso Latino-Americano de Aplicações para Televisão Digital,
+promovido no Workshop de Televisão Digital durante o WebMedia 2010.
 
-Nesse mesmo ano, o DamasTV recebeu sua primeira premiação internacional: uma menção honrosa no 1º Concurso
-Latino-Americano de Aplicações para Televisão Digital, realizado no Workshop de Televisão Digital no WebMedia 2010.
+No segundo semestre de 2010, visando expandir minha formação na área de sistemas distribuídos e computação gráfica,
+cursei a disciplina de Programação Gráfica e Jogos Digitais com o Professor Esteban Clua. No escopo do trabalho final,
+projetei e implementei um protótipo de motor de execução (\textit{engine}) para televisão digital baseado em NCLua,
+adaptando conceitos da arquitetura GingaGame~\cite{barboza2009ginga}.
+Essa aproximação técnico-científica motivou meu engajamento institucional na comissão organizadora da Brasil Game Show (BGS) em 2010,
+onde colaborei diretamente no gerenciamento de infraestrutura, logística de palestras e suporte à maratona de desenvolvimento (Brasil Game Jam).
 
-No segundo semestre de 2010, cursei a disciplina de Programação Gráfica e Jogos Digitais com o professor Esteban Clua,
-que foi uma das mais divertidas da graduação. No trabalho final, desenvolvi um protótipo de engine de jogos para
-televisão digital, inspirado no trabalho GingaGame de Diego Bastos~\cite{barboza2009ginga}, adaptando-o para o NCLua.
-
-A convivência com o professor Esteban levou-me a participar da Brasil Game Show de 2010 como organizador e colaborador.
-Auxiliei na organização e execução da Brasil Game Jam, das palestras e do concurso de jogos.
-
-Ao final de 2010, defendi meu trabalho de conclusão de curso:
-\textit{DamasTV: um Jogo Interativo para Televisão Digital}. A banca contou com a presença das professoras Maria Luíza
-(coordenadora do meu curso), Débora Saad (minha orientadora) e Esteban Clua. Fui aprovado com nota máxima e decidi
-seguir para o mestrado, orientado pela professora Débora, que havia migrado do Departamento de Engenharia de
-Telecomunicações para o Departamento de Ciência da Computação, permitindo-me atuar na área que eu desejava desde o
-vestibular.
+Ao final de 2010, defendi com êxito meu Trabalho de Conclusão de Curso intitulado \textit{DamasTV: um Jogo Interativo para Televisão Digital}.
+A banca examinadora foi composta pelas Professoras Maria Luíza (coordenadora do curso), Débora Saad (orientadora) e pelo Professor Esteban Clua.
+O trabalho foi aprovado com nota máxima e indicação para publicação. Diante do sólido alicerce construído na Engenharia de Telecomunicações,
+decidi ingressar diretamente no Mestrado em Ciência da Computação sob a orientação da Professora Débora,
+formalizando minha transição definitiva para a área de infraestrutura de software e redes de computadores.
 
 
 
@@ -571,45 +581,43 @@ vestibular.
 \label{sec_mes}
 \begin{subsummarybox}[frametitle=\faGraduationCap{}\quad Mestrado em Ciência da Computação]
   \begin{fa-ul}
-    \faUniversity & Universidade Federal Fluminense \\
-    \faCalendar & Fevereiro 2011 -- Junho 2013 \\
-    \faUser & Orientadora: Debora Muchaluat-Saade\\
-    \faInfoCircle & JNS E NCL4WEB: AUXILIANDO O DESENVOLVIMENTO E DIVULGAÇÃO DE DOCUMENTOS NCL~\cite{silva2013jns}
+    \item[\faUniversity] Universidade Federal Fluminense \\
+    \item[\faCalendar] Fevereiro 2011 -- Agosto 2013 \\
+    \item[\faNetworkWired] Atuação Estratégica: Projeto Piloto Eduroam -- Infraestrutura e Segurança de Redes (RNP) \\
+    \item[\faUser] Orientadora: Profa. Dra. Débora Christina Muchaluat-Saade \\
+    \item[\faInfoCircle] Dissertação: JNS e NCL4WEB: Auxiliando o Desenvolvimento e Divulgação de Documentos NCL~\cite{silva2013jns}
   \end{fa-ul}
 \end{subsummarybox}
 
-Iniciei o mestrado com a mesma orientadora e decidi por um projeto inteiramente novo: uma forma de programar para
-televisão digital mais acessível e menos verbosa, na forma de uma linguagem de script chamada
-JNS~\cite{silva2013jnsieee}. A ideia surgiu ao constatar que o mercado estava migrando do XML para o JSON como forma
-de representação.
+Iniciei o mestrado sob a orientação da Professora Débora, direcionando meus esforços para um projeto de pesquisa focado na interoperabilidade,
+eficiência e simplificação do desenvolvimento de sistemas distribuídos e multimídia para televisão digital.
+Projetei e implementei a JNS (\textit{JSON NCL Script})~\cite{silva2013jnsieee}, uma linguagem de \textit{script} concisa e baseada no padrão JSON.
+A concepção do projeto fundamentou-se na identificação de uma tendência global de transição do modelo XML para estruturas JSON,
+visando otimizar o transporte e a representação de dados em fluxos interativos.
+Durante o primeiro ano, concluí com êxito a especificação sintática da linguagem e o desenvolvimento do seu compilador nativo para ambientes NCL.
 
-No primeiro ano, consegui terminar a especificação da linguagem e o compilador básico para NCL. Nesse mesmo ano,
-recebi outro prêmio pelo DamasTV e fui voluntário em mais uma Brasil Game Show.
+Paralelamente, minha sólida formação em implementação de sistemas viabilizou minha inserção em um projeto de grande impacto nacional:
+o \textbf{Projeto Piloto do Eduroam na \UFF{}}, desenvolvido em cooperação com a Rede Nacional de Ensino e Pesquisa (RNP).
+Atuei diretamente nos testes de viabilidade técnica, na avaliação de desempenho dos protocolos de autenticação segura e criptografia (baseados no padrão IEEE 802.1X e servidores RADIUS),
+bem como na elaboração dos manuais técnicos e tutoriais de referência homologados pela RNP para a expansão nacional do sistema —
+infraestrutura que hoje provê conectividade segura e federação de identidade para todas as instituições federais de ensino superior do país.
+Em 2012, consolidei essa contribuição ao atuar como instrutor em dois cursos oficiais do Eduroam no 18º Seminário RNP de Capacitação e Inovação,
+além de apresentar os resultados da arquitetura de federação no \textit{IdP Forum RNP}, em parceria com o pesquisador Edelberto Franco Silva.
 
-Apesar de ter algumas dificuldades por estar fazendo o doutorado em uma área diferente da graduação, consegui concluir
-as disciplinas. No entanto, isso me fez gastar mais tempo estudando e menos tempo escrevendo.
+No segundo ano do mestrado, dando continuidade à pesquisa principal, desenvolvi o \textit{NCL4WEB}~\cite{silva2013ncl4web}.
+Utilizando mapeamentos XSLT~\cite{clark1999xsl}, criei uma arquitetura de translação capaz de converter aplicações interativas NCL em páginas HTML5 estruturadas,
+permitindo a execução multiplataforma de conteúdos digitais diretamente em navegadores \textit{web} convencionais.
 
-A implementação sempre foi um ponto forte para mim. No segundo ano do mestrado, entrei para o projeto piloto do Eduroam
-na UFF. Testamos a implementação, avaliamos a viabilidade e criamos tutoriais para a RNP utilizar no projeto, que hoje
-é usado em todas as instituições federais. Participei de dois cursos sobre o Eduroam em 2012.
+Pautado pelo compromisso com o rigor metodológico, a realização de testes extensivos de usabilidade da linguagem JNS e o refinamento dos artefatos de software desenvolvidos,
+optei por solicitar uma extensão regulamentar de prazo para a conclusão do curso.
+Essa estratégia demonstrou-se altamente eficaz, permitindo a consolidação dos resultados em publicações científicas de relevância internacional:
+publiquei um artigo sobre a especificação JNS no \textit{Workshop} MIS-MEDIA do prestigiado \textit{IEEE ICME 2013}~\cite{silva2013jnsieee} (Qualis B, CAPES) e,
+consecutivamente, um artigo completo sobre a arquitetura \textit{NCL4WEB} no \textit{ACM DocEng 2013}~\cite{silva2013ncl4web}, um dos principais eventos da área (Qualis A1, CAPES).
 
-No segundo ano do meu mestrado, em 2012, desenvolvi a segunda parte do meu projeto, o NCL4WEB, um
-XSLT~\cite{clark1999xsl} para traduzir o NCL para HTML, o que permitiria que qualquer navegador executasse uma
-aplicação de televisão digital.
-
-Acabei tendo que pedir uma extensão do mestrado para conseguir escrever os artigos. Sempre tive muita aptidão para
-implementar sistemas, mas não tanto para escrever sobre eles. Além disso, eu precisava testar a usabilidade da
-linguagem de script JNS.
-
-Com a extensão, tive tempo para escrever e publicar um artigo sobre o JNS para o Workshop de Gerenciamento de
-Informação em Multimídia e Indústria (MIS-MEDIA 2013) do ICME 2013~\cite{silva2013jnsieee} (Qualis B! CAPES).
-Também consegui publicar um artigo sobre o NCL4WEB no DocEng 2013~\cite{silva2013ncl4web} (Qualis A1 CAPES).
-
-Para a minha banca de mestrado, contei com a presença da minha orientadora, Débora Christina Muchaluat Saad; de Vanessa
-Braganholo, também professora da UFF (professora da disciplina de dados semi-estruturados, na qual aprendi XSLT);
-e do professor Marcelo Ferreira Moreno, da Universidade Federal de Juiz de Fora (uma das pessoas que ajudou e ainda
-ajuda no desenvolvimento da linguagem NCL e no padrão brasileiro de televisão digital). Em agosto de 2013, defendi minha
-dissertação de mestrado: "JNS e NCL4WEB: Auxiliando o Desenvolvimento e Divulgação de Documentos NCL"~\cite{silva2013jns}.
+A defesa da dissertação ocorreu em agosto de 2013, sob o título \textit{``JNS e NCL4WEB: Auxiliando o Desenvolvimento e Divulgação de Documentos NCL''}~\cite{silva2013jns}.
+A banca examinadora foi constituída por referências proeminentes na área: minha orientadora, Profa. Débora Muchaluat-Saade; a Profa. Vanessa Braganholo (\UFF{}),
+especialista em dados semiestruturados; e o Prof. Marcelo Ferreira Moreno (UFJF), um dos principais arquitetos do padrão brasileiro de televisão digital,
+culminando na aprovação do trabalho com distinção.
 
 
 
@@ -617,233 +625,194 @@ dissertação de mestrado: "JNS e NCL4WEB: Auxiliando o Desenvolvimento e Divulg
 %==============================================================================
 \chapter{Trajetória Profissional e Consolidação Técnica após o Mestrado}
 \label{cap_atuacao}
-
-\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo da Atuação Profissional]
+\begin{summarybox}[frametitle=\faInfoCircle{}\quad Resumo da Atuação Profissional e Marcos de Carreira]
   \begin{datelist}
     2013 & Docência em Redes de Computadores e Cabeamento Estruturado no IFRN/PRONATEC \\
-    2014--2015 & Desenvolvimento de soluções educacionais na SEDIS/UFRN via FUNPEC \\
-    2015 & Participação na organização do capítulo local da Global Game Jam \\
-    2015--atual & Técnico de Tecnologia da Informação -- UFRN \\
-    2015--2020 & Desenvolvimento e expansão da plataforma AVASUS \\
-    2016 & Autoria no software registrado ``AVASUS 1.0 -- Ambiente Virtual de Aprendizagem do SUS'' \\
-    2018 & Autoria de publicação técnica no ESUD 2018 \\
-    2021 & Autoria no software registrado ``The Manager -- Gerenciador de Projetos'' \\
-    2022 & Autoria no software registrado ``Paper Maker'' \\
-    2022 & Participação em quatro bancas de Especialização em Informática na Saúde \\
-    2023--2024 & Modernização da infraestrutura e adoção de arquitetura PaaS na SEDIS/UFRN \\
+    2014--2015 & Desenvolvimento de Infraestrutura Educacional na SEDIS/UFRN (via FUNPEC) \\
+    2015--atual & Ingresso como Servidor Efetivo: Técnico de Tecnologia da Informação -- UFRN \\
+    2015--2020 & Engenharia de Software e Expansão de Alta Escala da Plataforma AVASUS \\
+    2016 & Registro de Software: Patente ``AVASUS 1.0 -- Ambiente Virtual de Aprendizagem do SUS'' \\
+    2015--2025 & Desenvolvimento, Integração Segura e Contribuição Global no Ecossistema Moodle \\
+    2021 & Registro de Software: Patente ``The Manager -- Gerenciador de Projetos'' \\
+    2022 & Registro de Software: Patente ``Paper Maker'' e Atuação em Bancas de Especialização \\
+    2023--2024 & Modernização de Infraestrutura de Redes, Serviços e Migração para Arquitetura PaaS \\
+    2024 & Marco de Alinhamento Cognitivo e Diagnóstico Clínico de TEA (Transtorno do Espectro Autista) \\
+    2024--atual & Ingresso no Doutorado em Ciência da Computação (PPgSC/UFRN) \\
   \end{datelist}
 \end{summarybox}
 
-Após a conclusão do mestrado, optei por direcionar minha carreira para a consolidação profissional e aquisição de experiência
-prática em desenvolvimento de software, infraestrutura computacional e educação tecnológica, trajetória que me levou à cidade de Natal/RN.
+Após a conclusão do mestrado, recebi uma oferta de trabalho em Natal para atuar com jogos educacionais. Como eu namorava uma potiguar,
+decidi me mudar para a cidade, onde fui aprovado no processo seletivo da FUNPEC para o cargo de programador de jogos.
 
-Minha atuação profissional após o mestrado foi marcada pela integração entre docência, desenvolvimento de software,
-integração de sistemas e, mais recentemente, administração de infraestrutura e serviços computacionais em ambiente institucional de grande porte.
+Em 2013, enquanto aguardava a convocação pela FUNPEC, exerci minha primeira atividade docente formal no ensino público federal,
+atuando no IFRN por meio do PRONATEC. Nessa oportunidade, ministrei disciplinas diretamente alinhadas ao escopo deste concurso,
+incluindo \textit{Cabeamento Estruturado}, \textit{Redes de Acesso} e \textit{Planejamento e Projeto de Redes de Computadores},
+aliando fundamentos teóricos a práticas de laboratório.
 
-Em 2013, tive minha primeira experiência formal como docente no ensino público federal, atuando no IFRN, por meio do PRONATEC,
-ministrando disciplinas diretamente relacionadas à área deste concurso, incluindo Cabeamento Estruturado, Redes de Acesso, além de Planejamento e Projeto de Redes de Computadores.
+Em 2014, fui convocado para colaborar com a Secretaria de Educação a Distância da Universidade Federal do Rio Grande do Norte (SEDIS/UFRN),
+via FUNPEC, como desenvolvedor de soluções computacionais. Paralelamente, engajei-me na comunidade local de desenvolvedores de jogos (hoje organizada sob a sigla \PONG{}),
+integrando a comissão organizadora do capítulo potiguar da \textit{Global Game Jam} em 2015.
+Esse período de amadurecimento técnico culminou em minha aprovação no concurso público da UFRN para o cargo de Técnico de Tecnologia da Informação,
+função que exerço desde 2015. Nesse mesmo período, casei-me com minha então namorada, Tábita Pollyana Alves de Souza, com quem vivo feliz até hoje.
 
-Em 2014, fui convidado para atuar na Universidade Federal do Rio Grande do Norte, por meio da Fundação Norte-Rio-Grandense de
-Pesquisa e Cultura (FUNPEC), como desenvolvedor na Secretaria de Educação a Distância (SEDIS/UFRN).
-Nesse período, também me envolvi com a comunidade local de desenvolvimento de jogos digitais, participando da organização do capítulo local da Global Game Jam em 2015.
+\subsection{Plataforma AVASUS: Arquitetura de Alta Disponibilidade e Escala Nacional}
 
-Em paralelo, participei de diversos concursos públicos para a carreira docente e técnico-administrativa, sendo aprovado no
-concurso da UFRN para o cargo de Técnico de Tecnologia da Informação, função que exerço desde 2015.
+A partir de 2015, integrei a equipe fundadora de engenharia de software da plataforma **AVASUS** (Ambiente Virtual de Aprendizagem do SUS),
+desenvolvida pela SEDIS em cooperação estratégica com o Ministério da Saúde. Projetada inicialmente para o programa Mais Médicos,
+a plataforma escalou exponencialmente, ultrapassando a marca crítica de \textbf{um milhão de usuários ativos} em todo o território nacional.
 
-Na SEDIS, minha atuação inicial concentrou-se no ecossistema Moodle, onde adquiri experiência prática em banco de dados,
-geração de relatórios, integração entre sistemas acadêmicos e desenvolvimento de extensões para ambientes educacionais em larga escala.
+Atuar em um sistema distribuído de volumetria governamental exigiu o desenho de soluções complexas de alta disponibilidade,
+otimização de consultas, monitoramento de logs e segurança contra ameaças digitais.
+Minhas contribuições técnicas cobriram desde a otimização do núcleo do sistema de relatórios para suportar acessos concorrentes massivos
+até a estruturação de pipelines de extração segura de grandes volumes de dados (\textit{Big Data}),
+servindo de insumo para pesquisas epidemiológicas e estudos institucionais.
+Esse esforço contínuo resultou no registro de patente tecnológica do software de propriedade intelectual institucional \textbf{``AVASUS 1.0 -- Ambiente Virtual de Aprendizagem do SUS''},
+deferido em 2016.
 
-Em 2015, a SEDIS iniciou, em parceria com o Ministério da Saúde, o desenvolvimento da plataforma AVASUS, ambiente virtual
-de aprendizagem voltado inicialmente ao programa Mais Médicos e posteriormente expandido para toda a população brasileira.
-A plataforma rapidamente atingiu escala nacional, ultrapassando a marca de um milhão de usuários, exigindo soluções robustas
-de integração, extração de dados, monitoramento e escalabilidade.
+\subsection{O Ecossistema Moodle: Integração Segura, Interoperabilidade e Contribuição Open Source}
 
-Ao longo desse projeto, participei ativamente da evolução tecnológica da plataforma, contribuindo tanto para desenvolvimento
-quanto para extração de dados utilizados em pesquisas acadêmicas e estudos institucionais. Como resultado desse trabalho,
-participei do registro do software ``AVASUS 1.0 -- Ambiente Virtual de Aprendizagem do SUS''.
+Na SEDIS/UFRN, minha linha de atuação concentrou-se no ecossistema Moodle, onde especializei-me na engenharia de sistemas distribuídos voltados à educação.
+Desenvolvi sólida experiência em modelagem e otimização de bancos de dados relacionais, extração massiva de dados e integração de sistemas acadêmicos.
 
-Uma das minhas principais responsabilidades na SEDIS foi a integração segura do Moodle com sistemas institucionais,
-especialmente o SIGAA. Para isso, desenvolvi plugins de autenticação e integração baseados no protocolo OAuth 2.0, além
-de integrações com provedores externos de identidade utilizados pelo AVASUS, sempre com foco em autenticação segura,
-gerenciamento de tokens e interoperabilidade entre plataformas.
+Uma das minhas principais atribuições técnicas foi projetar a interoperabilidade segura entre o Moodle e o ecossistema modular da universidade, com destaque para o SIGAA.
+Para viabilizar esse fluxo, coreografei e implementei \textit{plugins} de autenticação robusta e federação de identidade baseados no protocolo padrão de mercado \textbf{OAuth 2.0},
+além de gerenciar fluxos seguros de criptografia e ciclo de vida de \textit{tokens}, mitigando vulnerabilidades de acesso e garantindo o controle estrito de privilégios entre plataformas.
 
-Também atuei no desenvolvimento de outros sistemas institucionais utilizando tecnologias como PHP, Laravel e React.js.
-Entre esses projetos, destaco minha participação no desenvolvimento do sistema ``The Manager'', plataforma de gerenciamento
-de projetos posteriormente registrada como software.
-
-Paralelamente, envolvi-me com a comunidade internacional de desenvolvimento Moodle, contribuindo com resolução de problemas
-reportados pela comunidade e desenvolvendo dois plugins publicados no repositório oficial da plataforma
-Moodle~\cite{moodle_tool_deletemessage,moodle_tool_sentry}. Em 2025, apresentei uma dessas contribuições no Moodle Moot,
-evento internacional da comunidade Moodle, abordando a integração da plataforma com o sistema de monitoramento :contentReference[oaicite:0]{index=0}~\cite{sentry2011}.
-
-Em 2022, tive a honra de participar de quatro bancas de conclusão da Especialização em Informática na Saúde,
-curso ofertado por meio da plataforma AVASUS, experiência que reforçou meu compromisso com a formação acadêmica e com a carreira docente.
-
-No mesmo período, também me envolvi com ações de extensão e educação ambiental relacionadas à conservação de abelhas nativas,
-realizando atividades de resgate de colônias, palestras e ações de conscientização junto à comunidade.
-Essas experiências reforçaram meu desejo de retornar formalmente à carreira acadêmica, levando-me a estruturar meu projeto de doutorado.
-
-Em 2023, submeti minha candidatura ao Programa de Pós-Graduação em Sistemas e Computação da UFRN (PPgSC/UFRN), sendo aprovado para ingresso em 2024.
-
-Antes do início formal do doutorado, também assumi responsabilidades relacionadas à infraestrutura de redes e serviços
-computacionais da SEDIS. Diante da redução da equipe técnica especializada e da necessidade de aumentar a autonomia operacional do setor,
-conduzi um processo de modernização da infraestrutura institucional, migrando serviços legados para uma arquitetura baseada em
-Plataforma como Serviço (PaaS), utilizando o :contentReference[oaicite:1]{index=1}~\cite{caprover}.
-
-Essa migração reduziu significativamente a dependência de configuração manual de servidores, aumentou a disponibilidade dos
-serviços, facilitou processos de recuperação operacional e permitiu a adoção de práticas modernas de integração contínua e
-entrega contínua (CI/CD), além de fortalecer aspectos relacionados à segurança, versionamento e escalabilidade.
-
-Essa trajetória profissional me proporcionou experiência prática em docência, desenvolvimento de software, integração segura de
-sistemas, administração de serviços e modernização de infraestrutura computacional, competências que considero diretamente alinhadas
-às demandas de ensino, pesquisa e extensão na área de Redes de Computadores.
+Minha atuação expandiu-se para além das fronteiras institucionais através do engajamento ativo na comunidade internacional \textit{Open Source} do Moodle.
+Identifiquei brechas operacionais e implementei correções arquiteturais que resultaram na publicação oficial de dois \textit{plugins} homologados no repositório global da plataforma:
+o \textit{Moodle Tool DeleteMessage}~\cite{moodle_tool_deletemessage} e o \textit{Moodle Tool Sentry}~\cite{moodle_tool_sentry}.
+Em 2025, apresentei internacionalmente essas soluções no \textit{MoodleMoot}, demonstrando cientificamente a viabilidade de integrar o ecossistema educacional a
+ferramentas avançadas de monitoramento distribuído de telemetria e segurança em tempo real através do \textit{Sentry}~\cite{sentry2011}.
 
 
 
-%==============================================================================
+\subsection{Modernização de Infraestrutura de Redes e Serviços via Arquitetura PaaS}
+
+Em 2023, assumi a responsabilidade de liderar a modernização da infraestrutura computacional e de redes da SEDIS/UFRN.
+Diante de restrições de força de trabalho técnica e da necessidade urgente de aumentar a resiliência operacional,
+planejei e executei a migração completa de serviços legados e servidores isolados para uma arquitetura moderna baseada em Plataforma como Serviço (PaaS),
+adotando a solução em contêineres \textit{CapRover}~\cite{caprover}.
+
+Essa transição arquitetural funcionou como um divisor de águas tecnológico no setor:
+substituiu o provisionamento manual — historicamente suscetível a falhas humanas — por um modelo padronizado baseado em conteinerização.
+A adoção do CapRover viabilizou o isolamento seguro das aplicações através de redes virtuais internas (\textit{overlay networks}) e
+estruturou fluxos automatizados de Integração Contínua e Entrega Contínua (CI/CD).
+Essa automação otimizou o ciclo de vida do software, garantindo previsibilidade nas implantações (\textit{deploys}),
+gerenciamento dinâmico de certificados SSL/TLS e facilitando a execução de políticas de \textit{backup} e recuperação,
+o que aumentou significativamente a eficiência e a resiliência operacional do setor.
+
+\subsection{Gerência de Portfólio de Sistemas, Projetos Complementares}
+
+Paralelamente aos sistemas de escala nacional, assumi a responsabilidade técnica e a gerência de sustentação de todo o portfólio de sistemas corporativos internos da SEDIS/UFRN,
+inclusive plataformas legadas ou originalmente desenvolvidas por outros membros da equipe, tais como o \textit{SEDIS EAD} e o \textit{SEDIS Viagens}. No escopo do \textit{SEDIS Viagens},
+liderei uma migração arquitetural crítica, transicionando a base tecnológica de Java para PHP. Essa decisão estratégica visou unificar a pilha de desenvolvimento do setor, simplificar o código-fonte e garantir maior manutenibilidade e produtividade para os demais desenvolvedores da instituição. Adicionalmente, projetei e implementei o sistema \textit{SEDIS Seleções}; inicialmente concebido de forma restrita para o recrutamento de tutores, o sistema evoluiu sob minha condução para uma plataforma robusta de concursos institucionais, cuja segunda versão expandida encontra-se atualmente em estágio de homologação e testes.
+
+Nesse mesmo período de intensa produção tecnológica, destaco o desenvolvimento das aplicações corporativas \textit{``The Manager''},
+plataforma de gerenciamento ágil de projetos registrada como software em 2021, e o \textit{``Paper Maker''} em 2022. Ainda em 2022,
+exerci papel de avaliador técnico-científico ao compor a banca examinadora de quatro trabalhos de conclusão da Especialização em Informática na Saúde da UFRN, atividade que validou o impacto do ecossistema AVASUS na formação de especialistas.
+
+\subsection{Diagnostico de TEA e Meliponicultura}
+
+Um marco fundamental de autodescoberta em minha trajetória ocorreu em 2024, com a conclusão do meu diagnóstico clínico de Transtorno do Espectro Autista (TEA).
+A busca pela investigação especializada deu-se de forma tardia, motivada pelo diagnostico de pessoas em minha equipe de trabalho com quem me identificava.
+Eu não havia procurado antes por me considerar mais desenvolto que meu irmão com dianostico de Aspenger/TEA desde a infáncia.
+A obtenção do diagnóstico funcionou como uma chave retrospectiva que elucidou os desafios invisíveis enfrentados ao longo da minha carreira.
+
+Embora eu mantivesse uma produção tecnológica intensa e de alto impacto, o TEA manifestava-se em barreiras sutis de socialização,
+no isolamento focado em torno de interesses específicos de hiperfoco e na dificuldade crônica em decodificar convites implícitos para engajamento em frentes estritamente acadêmicas.
+Compreender minha estrutura cognitiva sob a ótica da neurodivergência trouxe profunda clareza sobre meus mecanismos de atenção e permitiu-me mitigar
+a rigidez de pensamento, alinhando de forma assertiva e saudável minhas relações interpessoais, profissionais e conjugais.
+
+Fora do escopo estrito da tecnologia, dediquei-me de forma pontual a ações de voltadas à sustentabilidade através da meliponicultura,
+coordenando atividades comunitárias de resgate, manejo seguro e conscientização sobre a conservação de abelhas nativas sem ferrão.
+Essa interface prática com a natureza funcionou para mim como uma importante atividade terapêutica no período pós-pandemia,
+restabelecendo o equilíbrio psicossocial necessário diante do desgaste do período de crise sanitária e das intensas demandas profissionais.
+
+\subsection{O Retorno à Academia e o Ingresso no Doutorado}
+
+Este processo de alinhamento pessoal e o entendimento das minhas potencialidades coincidiram com um momento de forte inspiração familiar:
+a entrada de minha esposa no doutorado. Testemunhar de perto sua dedicação e inserção na pesquisa científica, deslocando-se para a \UFPE{} semanalmente,
+foi o catalisador que me deu forças e motivação para buscar meu próprio doutorado.
+
+Em 2023, estruturei meu projeto e submeti minha candidatura ao Programa de Pós-Graduação em Sistemas e Computação (PPgSC/UFRN).
+Embora não tenha sido aprovado nessa primeira investida, mantive a resiliência acadêmica, refinando a proposta técnica para o processo seletivo subsequente, o que resultou em minha aprovação e ingresso formal no doutorado em 2024.
+
+Após minha aprovação, a saída de três servidores da SEDIS que foram aprovados em outros concursos inviabilizou a concessão
+do meu período de licença nos primeiros anos do curso. Desse modo, foi necessário conciliar as atribuições profissionais com os estudos,
+sendo possível afastar-me para dedicação integral à pesquisa apenas no início de 2026.
+
 \chapter{Pesquisa Atual no Doutorado}
 \label{cap_pesquisa}
 
-Após um período de afastamento da produção acadêmica, motivado principalmente por minha atuação em projetos de desenvolvimento
-tecnológico e pela dedicação ao mercado profissional, decidi, no contexto pós-pandemia de COVID-19 (2020--2021), reavaliar
-meus objetivos pessoais e profissionais. Esse processo de reflexão consolidou meu desejo de seguir a carreira docente e de
-retomar de forma estruturada minha trajetória acadêmica, culminando no ingresso no doutorado, aproximadamente dez anos após a conclusão do mestrado.
+Após mais de uma década dedicado ao mercado de trabalho e ao desenvolvimento de sistemas corporativos,
+o período pós-pandemia me fez reavaliar meus objetivos profissionais. Sentia uma forte necessidade de retomar minha trajetória acadêmica,
+focar na carreira docente e, principalmente, voltar a trabalhar na área de jogos digitais — um interesse antigo que eu havia deixado de lado desde que passe no concurso da UFRN.
+Essa decisão se concretizou com o meu ingresso no doutorado em 2024, onze anos após a conclusão do mestrado.
 
-Inicialmente, minha intenção era desenvolver uma linha de pesquisa voltada a jogos digitais aplicados ao ensino.
-Com base na experiência adquirida em sistemas de aprendizagem e desenvolvimento de jogos, desenvolvi um plugin para
-integração da engine Godot com o padrão SCORM~\cite{godot_scorm}, buscando aproximar ambientes educacionais de
-tecnologias modernas de desenvolvimento. Posteriormente, ao ingressar no grupo de pesquisa da professora Lyrene Fernandes,
-meu projeto foi redirecionado para a área de Engenharia de Software, área na qual venho consolidando minha atuação científica.
+No início do curso, tentei unir a experiência que eu tinha com sistemas educacionais ao desenvolvimento de jogos,
+criando um \textit{plugin} para integrar a \textit{engine} Godot com o padrão SCORM~\cite{godot_scorm}.
+Posteriormente, ao ingressar no grupo de pesquisa da Professora Lyrene Fernandes, direcionei meu foco para a Engenharia de Software.
+Essa mudança foi a oportunidade ideal para retornar de vez ao ecossistema de jogos, usando conceitos de qualidade de software para resolver problemas práticos desse setor.
 
-Atualmente, minha pesquisa de doutorado investiga o uso de Inteligência Artificial Generativa para apoiar a criação
-automatizada de testes em jogos digitais. Essa linha de pesquisa surgiu a partir de investigações anteriores, especialmente de
-um estudo de revisão sistemática conduzido sobre \textit{Code Smells} em projetos de jogos digitais, no qual analisei causas,
-impactos e estratégias de mitigação desses problemas. Os resultados desse estudo evidenciaram que práticas de teste automatizado
-podem desempenhar papel fundamental na melhoria da qualidade de software nesse domínio.
+Minha pesquisa de doutorado, que está em andamento, estuda o uso de Inteligência Artificial Generativa para ajudar na criação automatizada de testes para jogos.
+A ideia do projeto surgiu após eu conduzir uma revisão sistemática sobre \textit{Code Smells} (problemas de estrutura de código) em jogos.
+Esse estudo inicial me mostrou que a falta de testes automatizados é um dos principais fatores que tornam os códigos de jogos difíceis de manter e propensos a falhas.
 
-Em 2025, após esse processo de retomada acadêmica, obtive minha primeira publicação internacional após um longo período de
-afastamento da produção científica com o artigo \textit{“LLMs as Test Generators: A Comparative Benchmarking Study”},
-publicado no \textit{Simpósio Brasileiro de Engenharia de Software (SBES)}~\cite{silva2025llms}. Nesse trabalho, realizei
-uma análise comparativa entre modelos de linguagem de diferentes escalas quanto à capacidade de geração de testes automatizados,
-investigando especialmente o potencial de modelos menores para execução local, preservando privacidade e propriedade intelectual de desenvolvedores.
+Como primeiros resultados dessa retomada, publiquei em 2025 o artigo \textit{“LLMs as Test Generators: A Comparative Benchmarking Study”} no
+\textit{Simpósio Brasileiro de Engenharia de Software (SBES)}~\cite{silva2025llms}.
+Nesse trabalho, comparei o desempenho de diferentes modelos de linguagem (LLMs) na geração de testes e avaliei a viabilidade de usar modelos menores,
+rodando localmente (\textit{on-premises}), para proteger a privacidade e a propriedade intelectual dos desenvolvedores.
 
-Essa preocupação está diretamente alinhada ao contexto da indústria de jogos digitais, setor no qual ainda existe significativa
-resistência ao uso de soluções baseadas em Inteligência Artificial, especialmente em cenários que envolvem código proprietário e
-ativos de desenvolvimento. Com o objetivo de compreender essas demandas e validar empiricamente as necessidades do setor, conduzi
-uma pesquisa com desenvolvedores, aprovada pelo Comitê de Ética em Pesquisa sob o CAAE 91417425.1.0000.5537.
+Essa preocupação em rodar os modelos localmente faz sentido no mercado de jogos, onde muitas empresas evitam soluções em nuvem pública por medo de vazamento de código proprietário.
+Para entender melhor essas dores e validar o cenário real, fiz uma pesquisa de campo com desenvolvedores, que foi aprovada pelo Comitê de Ética em Pesquisa sob o CAAE 91417425.1.0000.5537.
 
-A ideia central do meu doutorado é contribuir para a melhoria do fluxo de desenvolvimento de jogos digitais,
-com foco especial na identificação e mitigação de problemas de regressão de software por meio de um framework para
-geração automatizada de testes com apoio de modelos de linguagem de grande porte.
+O objetivo central do meu doutorado é construir e testar um \textit{framework} que use esses modelos locais como assistentes para gerar testes e evitar falhas de regressão em jogos.
+O projeto ainda está em fase de desenvolvimento. O plano de trabalho consiste em encontrar um modelo local que execute bem a tarefa, estruturar o
+\textit{framework}, coletar os dados de funcionamento e, por fim, testar a solução na prática junto à comunidade de desenvolvedores.
 
-Além da contribuição em Engenharia de Software, essa linha de pesquisa também dialoga com desafios contemporâneos das
-áreas de infraestrutura computacional e sistemas distribuídos, especialmente em aspectos relacionados à execução local de modelos,
-privacidade de código proprietário, coleta de telemetria e integração com pipelines automatizados de desenvolvimento.
-
-A primeira versão desse framework foi aceita para publicação na \textit{IEEE Conference on Games 2026}, sob o título
-\textit{“LLM-Based Automated Test Generation for Unity Games: An Empirical Study”}. Esse trabalho representa a consolidação
-da linha de pesquisa que pretendo expandir em minha tese de doutorado, integrando Engenharia de Software, Inteligência Artificial e
-aspectos de infraestrutura computacional aplicados ao desenvolvimento de jogos digitais.
+Uma versão inicial dessa proposta foi aceita para publicação na \textit{IEEE Conference on Games 2026},
+com o título \textit{“LLM-Based Automated Test Generation for Unity Games: An Empirical Study”}.
+Este artigo apresenta a base do ecossistema que pretendo avaliar e amadurecer ao longo da tese,
+buscando unir de forma simples e aplicada os conceitos de Engenharia de Software, IA e infraestrutura computacional.
 
 
 \chapter{Projeto de Atuação Profissional}
 \label{cap_proje}
 
-Minha atuação docente no Instituto Metrópole Digital será orientada pela integração entre fundamentação teórica sólida, experimentação prática e pesquisa aplicada,
-buscando formar profissionais capazes não apenas de compreender os princípios de Redes de Computadores e Segurança da Informação, mas também de projetar, implementar,
-monitorar e evoluir infraestruturas computacionais reais.
+Minha atuação docente no Instituto Metrópole Digital (IMD) será orientada pela integração entre teoria explicada de forma clara, experimentação prática e resolução de problemas. Busco formar profissionais que não apenas compreendam os conceitos de Redes de Computadores e Segurança, mas que saibam como aplicar esse conhecimento na configuração, monitoramento e melhoria de infraestruturas reais.
 
-Minha trajetória profissional em integração de sistemas, autenticação segura, infraestrutura computacional, observabilidade e
-modernização de ambientes institucionais reforçou minha convicção de que o ensino em redes deve estar fortemente conectado a problemas
-concretos enfrentados pela indústria, pelo setor público e pela sociedade.
+Minha experiência prática com sistemas institucionais, autenticação segura e gerência de infraestrutura me mostrou que o ensino técnico rende mais quando conectado a cenários reais. Pretendo trazer essa vivência para a sala de aula, traduzindo conceitos complexos em desafios práticos que preparem os estudantes para o mercado de trabalho e para o setor público.
 
-\section{Filosofia de Ensino e Formação Laboratorial}
+\section{Filosofia de Ensino e Prática de Laboratório}
 
-Pretendo adotar metodologias centradas em \textit{hands-on learning}, aprendizagem baseada em projetos e resolução de problemas reais, utilizando laboratórios físicos e virtuais.
-
-Nas disciplinas relacionadas a Redes de Computadores, Segurança da Informação, Infraestrutura e Sistemas Distribuídos,
-pretendo utilizar ferramentas amplamente empregadas pela indústria, tais como:
+Minha metodologia de ensino prioriza o aprendizado prático (\textit{hands-on}) e a resolução de problemas em laboratório. Para aproximar os alunos da realidade do mercado, pretendo utilizar ferramentas e conceitos consolidados, tais como:
 
 \begin{itemize}
-    \item Wireshark para inspeção e análise de protocolos;
-    \item Zeek e Suricata para monitoramento e detecção de eventos de segurança;
-    \item Docker, Kubernetes e plataformas PaaS para virtualização e implantação de serviços;
-    \item Ferramentas de observabilidade para monitoramento de disponibilidade, desempenho e rastreabilidade;
-    \item Ambientes de MLOps para implantação, monitoramento e atualização de modelos de inteligência artificial em produção;
-    \item Frameworks para execução local de modelos, permitindo experimentação prática com inferência em dispositivos de borda.
+    \item \textbf{Wireshark:} para análise direta de tráfego e inspeção de protocolos de rede;
+    \item \textbf{Zeek e Suricata:} para o estudo prático de monitoramento e detecção de incidentes de segurança;
+    \item \textbf{Docker e CapRover (PaaS):} para ensinar conteinerização, isolamento de aplicações e automação de \textit{deploys} (CI/CD);
+    \item \textbf{Ferramentas de Observabilidade:} para monitorar a saúde, o desempenho e a telemetria de sistemas distribuídos;
+    \item \textbf{Modelos Locais de IA:} para experimentos práticos com inferência e execução de modelos de linguagem em hardware local.
 \end{itemize}
 
-Meu objetivo é permitir que os estudantes compreendam o comportamento dos protocolos e serviços em ambientes reais,
-desenvolvendo capacidade analítica para identificar falhas, gargalos de desempenho, vulnerabilidades de segurança e desafios relacionados à operação de sistemas inteligentes distribuídos.
+O objetivo principal é que o estudante consiga visualizar o comportamento das redes e dos serviços na prática. Dessa forma,
+ele desenvolve a capacidade analítica para identificar gargalos, corrigir falhas de configuração e mitigar vulnerabilidades de segurança de forma autônoma.
 
-\section{Pesquisa em Redes, Segurança e Infraestrutura}
+\section{Projetos de Extensão e Integração com a Comunidade}
 
-Pretendo desenvolver uma linha de pesquisa aplicada em redes e segurança computacional com foco em problemas contemporâneos de escalabilidade, resiliência e sustentabilidade digital.
+Como parte do meu plano de atuação, pretendo desenvolver ações de extensão que unam tecnologia, inovação e impacto social em duas frentes principais:
 
-Entre os temas iniciais de investigação, destaco:
+\subsection{Redes Aplicadas ao Desenvolvimento de Jogos}
+Pretendo criar disciplinas optativas, oficinas e minicursos voltados à infraestrutura de jogos digitais — área na qual desenvolvo minha pesquisa atual.
+O foco será ensinar, de forma acessível, tópicos como arquitetura de servidores para jogos \textit{multiplayer}, protocolos de sincronização de estado,
+comunicação ponto a ponto (P2P) e o uso prático de tecnologias de registro distribuído (\textit{blockchain}) para a persistência de mundos virtuais de forma descentralizada.
 
-\subsection{Mitigação de Ataques Distribuídos e Validação de Tráfego}
+\subsection{Meliponicultura Urbana e Educação Ambiental}
+Fora do escopo estrito da computação, pretendo estruturar um projeto de extensão focado na preservação e cultivo de abelhas nativas sem ferrão (ASF)
+no \textit{campus} da \UFRN{}. O Brasil abriga cerca de 75\% das espécies de meliponíneos do mundo.
+Este projeto terá como objetivo conscientizar a comunidade acadêmica e externa sobre a importância ecológica dessas espécies,
+promovendo oficinas de manejo seguro, resgate de colônias em áreas urbanas e divulgação científica sobre a biodiversidade local.
 
-Uma das linhas que pretendo investigar envolve mecanismos de mitigação de ataques distribuídos, especialmente ataques que
-exploram fragilidades inerentes aos mecanismos de estabelecimento e manutenção de conexões TCP.
-
-Em particular, tenho interesse em investigar estratégias baseadas em segredos compartilhados e validação criptográfica
-de sessões para identificação antecipada de confirmações falsas (\textit{spoofed ACKs}), permitindo que dispositivos de
-borda possam filtrar tráfego malicioso antes de sua chegada aos servidores protegidos.
-
-Essa linha será conduzida inicialmente como pesquisa exploratória, incluindo levantamento do estado da arte, modelagem experimental e validação em ambientes controlados.
-
-\subsection{Redes Descentralizadas, Edge Computing e Inferência Distribuída}
-
-Outra linha de interesse envolve o estudo de arquiteturas descentralizadas para execução de serviços computacionais e modelos de inteligência artificial.
-
-Com a crescente centralização da computação em grandes provedores de nuvem, considero relevante investigar alternativas
-distribuídas capazes de oferecer maior autonomia computacional, redução de custos operacionais, maior privacidade de dados e melhor eficiência energética.
-
-Pretendo investigar arquiteturas \textit{peer-to-peer}, \textit{edge computing} e estratégias de inferência distribuída,
-nas quais modelos de inteligência artificial possam ser parcialmente executados em dispositivos clientes e parcialmente em nós especializados da rede.
-
-Essa linha de pesquisa poderá explorar problemas relacionados a particionamento de modelos, balanceamento de carga,
-tolerância a falhas, latência de inferência, sincronização distribuída e segurança na execução colaborativa de modelos.
-
-\section{Extensão, Inovação e Transferência Tecnológica}
-
-Pretendo fortalecer a aproximação entre universidade, setor produtivo e comunidade, promovendo projetos de extensão
-voltados para diagnóstico e melhoria de infraestrutura computacional de micro e pequenas empresas vinculadas ao ecossistema de inovação do IMD.
-
-Minha experiência prévia com integração de sistemas institucionais, autenticação segura, infraestrutura como serviço e
-automação de implantação poderá contribuir diretamente para consultorias tecnológicas supervisionadas por alunos.
-
-Além disso, pretendo continuar minha atuação junto à comunidade de desenvolvimento de jogos digitais do Rio Grande do
-Norte, em parceria com o PONG RN e com grupos de pesquisa do IMD, promovendo a aplicação de conceitos de redes, observabilidade e testes automatizados em ambientes interativos.
-
-\section{Extensão Científica e Educação Ambiental}
-
-Paralelamente às atividades em computação, pretendo submeter à UFRN um projeto interdisciplinar de extensão voltado à
-conservação de abelhas sem ferrão, área na qual já possuo atuação prática em resgate, manejo e educação ambiental.
-
-O objetivo inicial é implantar um meliponário educativo com espécies nativas do próprio campus, integrando educação ambiental,
-ciência cidadã e divulgação científica para a comunidade universitária e escolas da região.
-
-Além da dimensão extensionista, pretendo explorar oportunidades de pesquisa aplicada envolvendo Internet das Coisas,
-sensoriamento distribuído e análise de dados ambientais. Uma das propostas que pretendo amadurecer consiste no desenvolvimento
-de dispositivos inteligentes de monitoramento não invasivo de colônias, capazes de acompanhar variáveis como temperatura, umidade, vibração, atividade de voo e padrões acústicos.
-
-Esse tipo de monitoramento pode reduzir a necessidade de inspeções manuais frequentes, que em muitas espécies de abelhas
-sem ferrão representam eventos de estresse para a colônia e podem impactar sua produtividade e estabilidade biológica.
-
-A iniciativa poderá gerar projetos interdisciplinares envolvendo Redes de Sensores, Internet das Coisas, Computação de Borda,
-análise de séries temporais e aplicação de inteligência artificial em monitoramento ambiental.
-
-\section{Integração Acadêmica e Institucional}
-
-Pretendo contribuir ativamente com as linhas de pesquisa em redes, infraestrutura e segurança do instituto, colaborando
-na atualização curricular das disciplinas de graduação e pós-graduação, na orientação de projetos de pesquisa e extensão,
-e no fortalecimento da infraestrutura computacional necessária para experimentação acadêmica de alto nível.
-
-Acredito que minha experiência profissional em ambientes de produção, aliada à minha atuação acadêmica em Engenharia de Software,
-Inteligência Artificial e sistemas distribuídos, poderá contribuir para a formação de profissionais capazes de enfrentar
-os desafios contemporâneos das redes de computadores.
 
 
 
@@ -852,19 +821,17 @@ os desafios contemporâneos das redes de computadores.
 \label{cap_conclusao}
 
 Minha trajetória acadêmica e profissional é marcada pela busca constante por aprendizado, inovação e contribuição à
-sociedade por meio da tecnologia. Cada etapa, desde os meus primeiros projetos na graduação até os desafios atuais no
-doutorado, moldou minhas competências e consolidou minha paixão pela docência e pela pesquisa aplicada.
+sociedade por meio da tecnologia. Cada etapa, desde os meus primeiros projetos na graduação até a pesquisa atual no doutorado,
+moldou minhas competências e consolidou minha paixão pela docência e pela pesquisa aplicada.
 
-Minha motivação para atuar no IMD está diretamente ligada ao potencial de impactar positivamente a formação de
-profissionais, bem como à oportunidade de desenvolver soluções práticas para desafios reais. Acredito que minha
-experiência em áreas como sistemas interativos, ensino a distância e inteligência artificial, aliada ao meu
-comprometimento com a inclusão digital e acessibilidade, me permitirá agregar valor ao Instituto e contribuir para o
-sucesso de iniciativas como o IA360.
+Minha motivação para atuar no Instituto Metrópole Digital (IMD) está diretamente ligada ao potencial de impactar positivamente a formação de novos profissionais,
+bem como à oportunidade de desenvolver soluções para desafios reais. Acredito que minha experiência prática em infraestrutura computacional, gerência de redes,
+segurança e integração de sistemas, somada à minha atual pesquisa em inteligência artificial,
+me permitirá agregar valor ao Instituto e contribuir para o sucesso de iniciativas acadêmicas e tecnológicas, como o ecossistema do IA360.
 
-Estou determinado a continuar expandindo meu conhecimento e promovendo inovações que transcendam a academia, criando
-um impacto duradouro na indústria, na sociedade e no ambiente educacional. Este memorial reflete não apenas o percurso
-que me trouxe até aqui, mas também minha visão de futuro, com o desejo de gerar um impacto positivo no ensino e
-fortalecer a comunidade acadêmica.
+Estou determinado a continuar expandindo meu conhecimento e promovendo inovações que transcendam a academia, gerando um impacto duradouro na indústria,
+na sociedade e no ambiente educacional. Este memorial reflete não apenas o percurso que me trouxe até aqui,
+mas também minha visão de futuro e o desejo de fortalecer a comunidade acadêmica da \UFRN{} através do ensino e da pesquisa.
 
 
 %==============================================================================
